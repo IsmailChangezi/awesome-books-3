@@ -53,7 +53,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Awesome Books <a name="about-project"></a>
 
-In this project, we built a basic website that allows users to add/remove books from a list. We achieved this by using JavaScript objects and arrays. We also dynamically modified the DOM and add basic events.
+In this project, we built a basic website that allows users to add/remove books from a list. We achieved this by using JavaScript objects and arrays. We also dynamically modified the DOM and added basic events.
 
 ## 🛠 Built With <a name="built-with"></a>
 
