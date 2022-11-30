@@ -59,7 +59,7 @@ let n = lastId();
 
 function printBooks() {
   let printed = '';
-  //  eslint-disable-next-line
+  
   for (let i = 0; i < books.length; i += 1) {
     const bk = books[i];
     printed += `
@@ -75,10 +75,10 @@ function printBooks() {
 
 printBooks();
 
-//  eslint-disable-next-line
+
 function deleteBook(id) {
   // let newBooks = [];
-  //  eslint-disable-next-line
+
   console.log("I will delete book with id " + id);
   const newBooks = new Book(id, null, null);
   newBooks.Delete();
@@ -87,13 +87,7 @@ function deleteBook(id) {
 
   storeData();
 }
-/*
-1. add eventlistener to List, add new and contact
-list call displayList()
-add new calls displayAddBooks()
-constact calls displayContact()
-when clicking name displayAll()
-*/
+
 
 function displayList() {
   listSection.classList.remove('hidden');
