@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 class="header-title">Awesome books</h1>
+        <ul>
+          <li id="call-list" class="active"><a href="#">List</a></li>
+          <li id="call-add-new"><a href="#">Add New</a></li>
+          <li id="call-contact"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <p id="date-time"></p>
+    <section class="container" id="books"></section>
+
+    <section id="add-books" class="hidden">
+      <hr />
+      <h2>Add a new Book</h2>
+      <form>
+        <input
+          type="text"
+          placeholder="Please Enter Your Book"
+          id="title"
+          name="title"
+          required
+        />
+        <input
+          type="text"
+          placeholder="Please Enter authors name"
+          id="author"
+          name="author"
+          required
+        />
+        <button class="form-btn" type="submit" id="add-btn">Add</button>
+      </form>
+    </section>
+
+    <footer class="hidden">
+      <h2>Contact Information</h2>
+      <p>
+        Do you have any questions or you just Want to say "Hello"?<br />
+        You can reach out to us!
+      </p>
+      <ul>
+        <li>Our e-mail: mail@mail.com</li>
+        <li>Our phone number 00146842165812</li>
+        <li>Our address: Ackerman Street 22, 131594 Siður, Usonia</li>
+      </ul>
+    </footer>
+  </body>
+  <script type="module" src="main.js"></script>
+</html>
