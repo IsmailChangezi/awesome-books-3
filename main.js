@@ -4,7 +4,9 @@ import { DateTime } from './modules/luxon.js';
 
 const dt = document.getElementById('date-time');
 setInterval(() => {
-  dt.innerHTML = DateTime.now().toLocaleString(DateTime.DATETIME_FULL_WITH_SECONDS);
+  dt.innerHTML = DateTime.now().toLocaleString(
+    DateTime.DATETIME_FULL_WITH_SECONDS,
+  );
 }, 1000);
 
 const listBtn = document.getElementById('call-list');
